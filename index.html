@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Landing Page - Welcome</title>
+    <link rel="shortcut icon" href="images/litcar-icon.png" type="image/x-icon">
+    <title>Literature Carnival - Welcome</title>
     <style>
         
     </style>
@@ -26,11 +27,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-11 navigation">
-                    <nav class="navbar navbar-expand-lg navbar-dark " style="border-radius: 10px;">
-                        <div class="container-fluid mt-2">
-
-                            <div class="collapse navbar-collapse" id="navbarNav2">
-                                <ul class="navbar-nav ms-auto d-flex align-items-center" style="gap: 20px;">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container-fluid position-relative">
+                           <a href="" class="navbar-brand">
+                            <img src="images/literaturecarnival-logo.png" width="180" class="img-fluid" alt="Literature Carnival">
+                           </a>
+                            <button class="border-0 navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarNav2">
+                                <ul class="navbar-nav d-flex align-items-center" style="gap: 20px;">
                                     <li class="nav-item">
                                         <a href="index.html" class="btn nav-btn nav-btn-home"
                                             aria-current="page">Home</a>
@@ -43,12 +52,6 @@
                                     </li>
                                 </ul>
                             </div>
-                            
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
                         </div>
                     </nav>
                 </div>
@@ -74,6 +77,7 @@
                     <div class="row">
                         <div class="col-12">
                              <div class="content text-white py-4 mt-4">
+
                         <p class="display-3">Welcome to the <br>
                             <span style="font-size: 55px; color: aquamarine;">Literature
                             </span><span style="font-size: 55px; color: tomato;"> Carnival!</span></p>
@@ -133,7 +137,7 @@
                         <div class="row mt-4">
                             <div class="col-sm-4">
                                 <div class="feature-card h-100 rounded-4 shadow-lg">
-                                    <img src="images/authors.jpg" alt="Nigerian Authors">
+                                    <img src="images/nigerianauthors.jpg" class="img-fluid" alt="Nigerian Authors">
                                     <h3 class="mt-3 fw-bold">Meet Literary Giants</h3>
                                     <p class="mt-3">Exclusive sessions with Chimamanda Adichie, Ben Okri, Wole Soyinka,
                                         and other
@@ -142,9 +146,9 @@
                                     <a class="learn-more" href="/events#authors">Meet Our Speakers →</a>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 mt-4 mt-sm-0">
                                 <div class="feature-card h-100 rounded-4 shadow-lg">
-                                    <img src="images/workshops.jpg" alt="Writing Workshops">
+                                    <img src="images/writers.jpg" class="img-fluid" alt="Writing Workshops">
                                     <h3 class="mt-3 fw-bold">Master Your Craft</h3>
                                     <p class="mt-3">Transform your writing through intensive workshops led by industry
                                         experts. From
@@ -154,9 +158,9 @@
                                     <a class="learn-more" href="/events#workshops">Browse Workshops →</a>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 mt-4 mt-sm-0">
                                 <div class="feature-card h-100 rounded-4 shadow-lg">
-                                    <img src="images/culture.jpg" alt="Cultural Performances">
+                                    <img src="images/cultural.jpg" class="img-fluid" alt="Cultural Performances">
                                     <h3 class="mt-3 fw-bold">Cultural Extravaganza</h3>
                                     <p class="mt-3">Immerse yourself in the rich tapestry of Nigerian culture through
                                         dramatic
@@ -241,7 +245,7 @@
                             <!-- Author Reading Sessions -->
                             <div class="item event-card">
                                 <div class="card h-100">
-                                    <img src="images/author-reading.jpg" class="card-img-top" alt="Author Reading">
+                                    <img src="images/author-reading.webp" class="card-img-top" alt="Author Reading">
                                     <div class="card-body">
                                         <p class="card-text">Captivating author reading sessions</p>
                                     </div>
@@ -250,7 +254,7 @@
                             <!-- Workshop Interactions -->
                             <div class="item event-card">
                                 <div class="card h-100">
-                                    <img src="images/workshop.jpg" class="card-img-top" alt="Workshop">
+                                    <img src="images/works.jpg" class="card-img-top" alt="Workshop">
                                     <div class="card-body">
                                         <p class="card-text">Interactive writing workshops.</p>
                                     </div>
@@ -259,7 +263,7 @@
                             <!-- Cultural Performance -->
                             <div class="item event-card">
                                 <div class="card h-100">
-                                    <img src="images/cultural.jpg" class="card-img-top" alt="Cultural Performance">
+                                    <img src="images/amazingdisplay.jpg" class="card-img-top" alt="Cultural Performance">
                                     <div class="card-body">
                                         <p class="card-text">Mesmerizing cultural performances.
                                         </p>
@@ -269,7 +273,7 @@
                             <!-- Book Signing -->
                             <div class="item event-card">
                                 <div class="card h-100">
-                                    <img src="images/book-signing.jpg" class="card-img-top" alt="Book Signing">
+                                    <img src="images/book-sign.jpg" class="card-img-top" alt="Book Signing">
                                     <div class="card-body">
                                         <p class="card-text">Memorable book signing moments.</p>
                                     </div>
@@ -278,7 +282,7 @@
                             <!-- Panel Discussion -->
                             <div class="item event-card">
                                 <div class="card h-100">
-                                    <img src="images/panel.jpg" class="card-img-top" alt="Panel Discussion">
+                                    <img src="images/paneldis.jpg" class="card-img-top" alt="Panel Discussion">
                                     <div class="card-body">
                                         <p class="card-text">Engaging panel discussions.</p>
                                     </div>
@@ -287,7 +291,7 @@
                             <!-- Network Event -->
                             <div class="item event-card">
                                 <div class="card h-100">
-                                    <img src="images/network.jpg" class="card-img-top" alt="Network Event">
+                                    <img src="images/networking.jpeg" class="card-img-top" alt="Network Event">
                                     <div class="card-body">
                                         <p class="card-text">Vibrant network events.</p>
                                     </div>
@@ -345,16 +349,16 @@
                     <div class="sponsors-carousel-section py-4">
                         <div class="owl-carousel owl-theme sponsors-carousel">
                             <div class="item sponsor-item">
-                                <img src="images/sponsor1.jpg" alt="Sponsor 1" class="img-fluid sponsor-logo">
+                                <img src="images/literaturecarnival-logo.png" alt="Sponsor 1" class="img-fluid sponsor-logo">
                             </div>
                             <div class="item sponsor-item">
-                                <img src="images/sponsor2.jpg" alt="Sponsor 2" class="img-fluid sponsor-logo">
+                                <img src="images/lit-log.jpg" alt="Sponsor 2" class="img-fluid sponsor-logo">
                             </div>
                             <div class="item sponsor-item">
-                                <img src="images/sponsor3.jpg" alt="Sponsor 3" class="img-fluid sponsor-logo">
+                                <img src="images/litcar.png" alt="Sponsor 3" class="img-fluid sponsor-logo">
                             </div>
                             <div class="item sponsor-item">
-                                <img src="images/sponsor4.jpg" alt="Sponsor 4" class="img-fluid sponsor-logo">
+                                <img src="images/literaturecarnival-logo.png" alt="Sponsor 4" class="img-fluid sponsor-logo">
                             </div>
                         </div>
                         <!-- Custom Navigation -->
@@ -533,7 +537,15 @@
                 dots: false,
                 autoplay: true,
                 autoplayTimeout: 3000,
-                autoplayHoverPause: true
+                autoplayHoverPause: true,
+                responsive: {
+                    768: {
+                        items: 2
+                    },
+                    992: {
+                        items: 4
+                    }
+                }
             });
 
             // Sponsors Custom Navigation
