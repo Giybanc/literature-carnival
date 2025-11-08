@@ -154,7 +154,8 @@ body {
   font-family: "Audiowide", sans-serif;
   font-size: 30px;
 }
-.countdown .countdown-item .item{
+.countdown-item .item{
+    font-family: "Audiowide", sans-serif;
   background: linear-gradient(45deg, var(--accent-color), #fff);
   -webkit-background-clip: text;
   background-clip: text;
