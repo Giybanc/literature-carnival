@@ -62,7 +62,6 @@ body {
   color: white;
 }
 
-
 @keyframes flash-text {
   0%,
   100% {
@@ -90,7 +89,6 @@ body {
   animation: flash-text 1.5s infinite;
   transition: background-color 0.75s, color 0.75s, border-color 0.75s;
 }
-
 
 .col-sm-8 {
   font-family: "Audiowide", sans-serif;
@@ -139,7 +137,6 @@ body {
   color: var(--primary-color);
 }
 
-
 .countdown {
   display: flex;
   justify-content: center;
@@ -154,8 +151,8 @@ body {
   font-family: "Audiowide", sans-serif;
   font-size: 30px;
 }
-.countdown-item .item{
-    font-family: "Audiowide", sans-serif;
+.countdown-item .item {
+  font-family: "Audiowide", sans-serif;
   background: linear-gradient(45deg, var(--accent-color), #fff);
   -webkit-background-clip: text;
   background-clip: text;
@@ -432,8 +429,6 @@ body {
   transform: translateX(5px);
 }
 
-
-
 /* Modern Footer Styles */
 .modern-footer {
   background: rgba(0, 0, 0, 0.7);
@@ -498,7 +493,15 @@ body {
   color: var(--accent-color);
   width: 20px;
 }
-
+.footer-contact li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.footer-contact li a:hover {
+  color: var(--accent-color);
+  transform: translateX(5px);
+}
 .footer-social {
   display: flex;
   gap: 15px;
@@ -555,4 +558,3 @@ body {
 .registration-card:hover .register {
   transform: scale(1.05);
 }
-
